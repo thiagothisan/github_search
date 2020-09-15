@@ -8,7 +8,7 @@ abstract class SearchByText {
 }
 
 class SearchByTextImpl implements SearchByText {
-  final SearchRepository repository;
+  final ISearchRepository repository;
 
   SearchByTextImpl(this.repository);
 

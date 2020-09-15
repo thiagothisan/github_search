@@ -6,7 +6,7 @@ import 'package:github_search/modules/search/domain/repositories/search_reposito
 import 'package:github_search/modules/search/domain/usecases/search_by_text.dart';
 import 'package:mockito/mockito.dart';
 
-class SearchRepositoryMock extends Mock implements SearchRepository {}
+class SearchRepositoryMock extends Mock implements ISearchRepository {}
 
 main() {
   final repository = SearchRepositoryMock();
